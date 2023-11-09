@@ -20,14 +20,47 @@ nav {
 }
 
 .nav-links {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .nav-links:hover {
  color: #FF5100;
- font-size: 2rem;
+ cursor: pointer;
 }
 
 .header-img {
   width: 100%;
+}
+
+h2 {
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.main-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.services-image-container {
+  width: 30%;
+}
+
+.services-image-container > img {
+width: 100%;
+}
+
+.services-image-container > p {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 5px;
+}
+
+h3 {
+  font-size: 3rem;
+  text-align: end;
+  padding: 15px 20px 15px 0;
 }
