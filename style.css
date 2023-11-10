@@ -17,11 +17,15 @@ nav {
 }
 
 nav > span {
-  width: 30%;
-  font-size: 2rem;
+  width: 35%;
   margin-left: 2%;
+}
+
+nav > span > a {
+  font-size: clamp(1.1rem, 2.3vw, 2rem);
   color:  #FF5100;
-  font-weight: bolder;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .nav-links-container {
@@ -34,7 +38,7 @@ nav > span {
 }
 
 .nav-links > a {
-  font-size: 2rem;
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
   text-decoration: none;
   color: black;
 }
@@ -51,7 +55,7 @@ nav > span {
 }
 
 .services-section > h2 {
-  font-size: 3.5rem;
+  font-size: clamp(2rem, 3vw, 3.5rem);
   padding: 35px 15px;
   text-align: center;
 }
@@ -72,13 +76,13 @@ width: 100%;
 }
 
 .services-image-container > p {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
   text-align: center;
   padding-top: 5px;
 }
 
 .services-section > h3 {
-  font-size: 3rem;
+  font-size: clamp(2rem, 2.8vw, 3rem);
   text-align: end;
   padding: 35px 15px;
 }
@@ -95,9 +99,9 @@ width: 100%;
 }
 
 .about-section > div > h2 {
-  font-size: 4rem;
+  font-size: clamp(2rem, 3vw, 4rem);
   text-align: center;
-  padding: 30px 15px 15px 0;
+  padding: clamp(1rem, 5%, 3rem) 15px 0 0;
 }
 
 .about-section-container > img {
@@ -106,21 +110,21 @@ width: 100%;
 }
 
 .about-section-container.left {
-  padding: 15px 8px 30px 15px;
+  padding: 0 8px 0 15px;
   display: flex;
   flex-direction: column;
 }
 
 .about-section-container > p {
-  font-size: 2.5rem;
-  line-height: 45px;
-  padding-top: 25px;
+  font-size: clamp(1.2rem, 2.5vw, 2.8rem);
+  line-height: clamp(15px, 3vw, 45px);
+  padding-top: clamp(5px, 2vw, 25px);
 }
 
 .contact-section {
   background-image: url("/images/cover.png");
   margin-top: 20px;
-  height: 55vh;
+  height: 60vh;
   color: white;
 }
 
@@ -128,7 +132,7 @@ width: 100%;
   font-size: 3.5rem;
   text-align: center;
    color: #FF5100;
-   padding: 50px 0 30px 0;
+   padding: 60px 0 30px 0;
 }
 
 .contact-section > p {
@@ -143,7 +147,7 @@ width: 100%;
 .contact-container {
   display: flex;
   justify-content: center;
-  gap: 20%;
+  gap: 10%;
   margin-top: 15px;
 }
 
@@ -158,12 +162,8 @@ width: 100%;
   font-weight: bolder;
 }
 
-footer {
-  height: 10vh;
-}
-
 footer > p {
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   font-size: 1.5rem;
 }
