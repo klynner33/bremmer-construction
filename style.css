@@ -3,11 +3,22 @@
   padding: 0;
   margin: 0;
   font-size: 10px;
+  font-family: 'Lato', sans-serif;
 }
 
 nav {
-  /* border: 1px solid blue; */
+  display: flex;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > span {
+  width: 30%;
+  font-size: 1.8rem;
+  margin-left: 2%;
+  color:  #FF5100;
+  font-weight: bolder;
 }
 
 .nav-links-container {
@@ -16,25 +27,29 @@ nav {
   gap: 5%;
   justify-content: right;
   margin: 2% 4% 2% 0;
-  /* border: 1px solid red; */
+  width: 60%;
 }
 
-.nav-links {
+.nav-links > a {
   font-size: 2rem;
+  text-decoration: none;
+  color: black;
 }
 
-.nav-links:hover {
+.nav-links > a:hover {
  color: #FF5100;
  cursor: pointer;
 }
 
 .header-img {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .services-section > h2 {
   font-size: 3.3rem;
   padding: 35px 15px;
+  text-align: center;
 }
 
 .main-image-container {
@@ -64,9 +79,11 @@ width: 100%;
   padding: 35px 15px;
 }
 
+
 .about-section {
   display: flex;
   align-items: flex-start;
+  margin: 25px 0 50px 0;
 }
 
 .about-section-container {
@@ -75,7 +92,8 @@ width: 100%;
 
 .about-section > div > h2 {
   font-size: 3.3rem;
-  padding: 15px 15px 15px 15px;
+  text-align: center;
+  padding: 15px 15px 15px 0;
 }
 
 .about-section-container > img {
@@ -87,9 +105,54 @@ width: 100%;
   padding: 15px 8px 30px 15px;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
 }
 
 .about-section-container > p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  line-height: 25px;
+}
+
+.contact-section {
+  background-image: url("/images/cover.png");
+  margin-top: 20px;
+  height: 55vh;
+  color: white;
+}
+
+.contact-section > h2 {
+  font-size: 3.3rem;
+  text-align: center;
+   color: #FF5100;
+   padding: 40px 0;
+}
+
+.contact-section > p {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-size: 1.6rem;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 30%;
+  margin-top: 15px;
+}
+
+.contact-info > p {
+  font-size: 1.4rem;
+  line-height: 25px;
+}
+
+footer {
+  height: 10vh;
+}
+
+footer > p {
+  text-align: center;
+  padding: 30px;
+  font-size: 1.3rem;
 }
