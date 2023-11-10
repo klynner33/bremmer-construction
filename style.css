@@ -8,14 +8,17 @@
 
 nav {
   display: flex;
+  background-color: white;
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  height: 80px;
 }
 
 nav > span {
   width: 30%;
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-left: 2%;
   color:  #FF5100;
   font-weight: bolder;
@@ -43,11 +46,12 @@ nav > span {
 
 .header-img {
   width: 100%;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 
 .services-section > h2 {
-  font-size: 3.3rem;
+  font-size: 3.5rem;
   padding: 35px 15px;
   text-align: center;
 }
@@ -91,9 +95,9 @@ width: 100%;
 }
 
 .about-section > div > h2 {
-  font-size: 3.3rem;
+  font-size: 4rem;
   text-align: center;
-  padding: 15px 15px 15px 0;
+  padding: 30px 15px 15px 0;
 }
 
 .about-section-container > img {
@@ -108,8 +112,9 @@ width: 100%;
 }
 
 .about-section-container > p {
-  font-size: 1.5rem;
-  line-height: 25px;
+  font-size: 2.5rem;
+  line-height: 45px;
+  padding-top: 25px;
 }
 
 .contact-section {
@@ -120,31 +125,37 @@ width: 100%;
 }
 
 .contact-section > h2 {
-  font-size: 3.3rem;
+  font-size: 3.5rem;
   text-align: center;
    color: #FF5100;
-   padding: 40px 0;
+   padding: 50px 0 30px 0;
 }
 
 .contact-section > p {
   text-align: center;
-  width: 60%;
+  width: 50%;
   margin: auto;
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 25px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .contact-container {
   display: flex;
   justify-content: center;
-  gap: 30%;
+  gap: 20%;
   margin-top: 15px;
 }
 
 .contact-info > p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 25px;
+}
+
+.contact-info > p:first-of-type {
+  font-size: 1.6rem;
+  line-height: 20px;
+  font-weight: bolder;
 }
 
 footer {
@@ -154,5 +165,5 @@ footer {
 footer > p {
   text-align: center;
   padding: 30px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
