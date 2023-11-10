@@ -32,10 +32,9 @@ nav {
   width: 100%;
 }
 
-h2 {
+.services-section > h2 {
   font-size: 3.3rem;
-  text-align: center;
-  padding: 15px 0;
+  padding: 35px 15px;
 }
 
 .main-image-container {
@@ -59,8 +58,38 @@ width: 100%;
   padding-top: 5px;
 }
 
-h3 {
+.services-section > h3 {
   font-size: 3rem;
   text-align: end;
-  padding: 15px 20px 15px 0;
+  padding: 35px 15px;
+}
+
+.about-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+.about-section-container {
+  width: 50%;
+}
+
+.about-section > div > h2 {
+  font-size: 3.3rem;
+  padding: 15px 15px 15px 15px;
+}
+
+.about-section-container > img {
+  width: 100%;
+  padding: 15px 15px 15px 7px;
+}
+
+.about-section-container.left {
+  padding: 15px 8px 30px 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.about-section-container > p {
+  font-size: 1.8rem;
 }
