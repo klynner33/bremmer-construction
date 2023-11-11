@@ -124,7 +124,7 @@ width: 100%;
 }
 
 .contact-section {
-  background-image: url("/images/cover.png");
+  background-image: url("images/cover.png");
   margin-top: 20px;
   height: 60vh;
   color: white;
@@ -156,7 +156,7 @@ width: 100%;
 .contact-info > p {
   font-size: clamp(1.2rem, 2vw, 1.6rem);
   line-height: clamp(15px, 3vh, 25px);
-  padding-bottom: padding: clamp(1rem, 8%, 3rem);
+  padding-bottom: clamp(1rem, 8%, 3rem);
 }
 
 .contact-info > p:first-of-type {
