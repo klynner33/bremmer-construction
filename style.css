@@ -16,8 +16,9 @@ nav {
 }
 
 nav > span {
-  width: 35%;
+  width: 40%;
   margin-left: 2%;
+  border: 1px solid blue;
 }
 
 nav > span > a {
@@ -37,7 +38,7 @@ nav > span > a {
 }
 
 .nav-links > a {
-  font-size: clamp(1.6rem, 2.5vw, 2rem);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
   text-decoration: none;
   color: black;
 }
@@ -60,6 +61,7 @@ nav > span > a {
 
 .main-image-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2%;
@@ -70,11 +72,11 @@ nav > span > a {
 }
 
 .services-image-container > img {
-width: 100%;
+  width: 100%;
 }
 
 .services-image-container > p {
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1rem, 3vw, 2rem);
   text-align: center;
   padding-top: 5px;
 }
@@ -118,7 +120,7 @@ width: 100%;
 }
 
 .about-section-container > p {
-  font-size: clamp(1.2rem, 2.5vw, 2.8rem);
+  font-size: clamp(1rem, 2.5vw, 2.8rem);
   line-height: clamp(1rem, 3vw, 4rem);
   padding-top: clamp(1rem, 2vw, 3rem);
 }
@@ -142,7 +144,7 @@ width: 100%;
   width: 50%;
   margin: auto;
   font-size: clamp(1.2rem, 3vw, 2rem);
-  line-height: clamp(15px, 3vh, 25px);
+  line-height: clamp(15px, 4vh, 30px);
   padding-bottom: 30px;
 }
 
@@ -154,9 +156,8 @@ width: 100%;
 }
 
 .contact-info > p {
-  font-size: clamp(1.2rem, 2vw, 1.6rem);
-  line-height: clamp(15px, 3vh, 25px);
-  padding-bottom: clamp(1rem, 8%, 3rem);
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  line-height: clamp(15px, 4vh, 25px);
 }
 
 .contact-info > p:first-of-type {
@@ -170,5 +171,33 @@ footer {
 footer > p {
   text-align: center;
   padding: 3%;
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 870px) {
+  .contact-section > p {
+    width: 80%;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  footer > p {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .about-section-container > img {
+    padding: 30px 15px 15px 7px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  nav > span {
+    width: 25%;
+    text-align: center;
+  }
 }
