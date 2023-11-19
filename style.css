@@ -143,7 +143,7 @@ nav > span > a {
   width: 50%;
   margin: auto;
   font-size: clamp(1.2rem, 3vw, 2rem);
-  line-height: clamp(15px, 4vh, 30px);
+  line-height: clamp(2rem, 4vh, 3rem);
   padding-bottom: 30px;
 }
 
@@ -156,7 +156,7 @@ nav > span > a {
 
 .contact-info > p {
   font-size: clamp(1rem, 2vw, 1.6rem);
-  line-height: clamp(15px, 4vh, 25px);
+  line-height: clamp(2rem, 4vh, 3rem);
   padding-left: 10px;
 }
 
@@ -189,7 +189,7 @@ footer > p {
   }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 515px) and (orientation: landscape) {
 
   .main-image-container {
     display: flex;
