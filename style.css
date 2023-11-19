@@ -127,8 +127,8 @@ nav > span > a {
 .contact-section {
   background-image: url("images/cover.png");
   margin-top: 20px;
-  height: 60vh;
   color: white;
+  padding-bottom: 3.5rem;
 }
 
 .contact-section > h2 {
