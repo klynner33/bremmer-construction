@@ -190,6 +190,7 @@ footer > p {
 }
 
 @media screen and (max-width: 515px) {
+
   .main-image-container {
     display: flex;
     flex-direction: column;
@@ -208,6 +209,10 @@ footer > p {
   .about-section-container {
     width: 90%;
     text-align: center;
+  }
+
+  .services-section > h2, .about-section > div > h2, .contact-section > h2 {
+    font-size: 2.5rem;
   }
 }
 
