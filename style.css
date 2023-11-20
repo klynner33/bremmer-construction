@@ -120,7 +120,7 @@ nav > span > a {
 
 .about-section-container > p {
   font-size: clamp(1.5rem, 2.5vw, 3rem);
-  line-height: clamp(1.4rem, 3vw, 4.5rem);
+  line-height: clamp(2rem, 3vw, 4.5rem);
   padding-top: clamp(1rem, 2vw, 3rem);
 }
 
@@ -195,14 +195,7 @@ footer > p {
   }
 }
 
-@media screen and (max-width: 550px) {
-  footer > p {
-    padding: 20px;
-  }
-}
-
-@media screen and (max-width: 515px) and (orientation: landscape) {
-
+@media screen and (max-width: 650px) {
   .main-image-container {
     display: flex;
     flex-direction: column;
@@ -228,6 +221,12 @@ footer > p {
   }
 }
 
+@media screen and (max-width: 550px) {
+  footer > p {
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width: 415px) {
   .about-section-container > img {
     padding: 30px 15px 15px 7px;
@@ -238,5 +237,12 @@ footer > p {
   nav > span {
     width: 25%;
     text-align: center;
+  }
+}
+
+@media (orientation: landscape) {
+  .about-section {
+    flex-direction: row;
+    align-items: start;
   }
 }
